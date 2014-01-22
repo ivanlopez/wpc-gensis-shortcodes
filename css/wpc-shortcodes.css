@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'wpc-shortcodes';
+  src: url('../font/wpc-shortcodes.eot?63589441');
+  src: url('../font/wpc-shortcodes.eot?63589441#iefix') format('embedded-opentype'),
+       url('../font/wpc-shortcodes.woff?63589441') format('woff'),
+       url('../font/wpc-shortcodes.ttf?63589441') format('truetype'),
+       url('../font/wpc-shortcodes.svg?63589441#wpc-shortcodes') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="wpc_"]:before, [class*="wpc_"]:before {
+  font-family: "wpc-shortcodes";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+ 
+  font-variant: normal;
+  text-transform: none;
+     
+  line-height: 1em;
+ 
+  font-size: 80%; 
+  position: relative;
+  top: -4px;
+ 
+}
+ 
+span.mce_wpc_buttons:before { content: '\e800'; } /* '' */
+span.mce_wpc_notice-boxes:before { content: '\e801'; } /* '' */
