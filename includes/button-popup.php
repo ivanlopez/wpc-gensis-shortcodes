@@ -1,6 +1,6 @@
 <?php
 // this file contains the contents of the popup window
-      $wpc_url = wpc_url();
+    $wpc_url = wpc_url();
 	function wpc_url()
 	{
 	    $s = empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == "on") ? "s" : "";
@@ -62,7 +62,6 @@
 	    padding: 9px;
 }
 </style>
-
 
 </head>
 <body>
