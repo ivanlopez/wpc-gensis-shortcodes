@@ -14,21 +14,16 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   text-align: center;
- 
   font-variant: normal;
   text-transform: none;
-     
   line-height: 1em;
- 
   font-size: 80%; 
   position: relative;
   top: -4px;
- 
 }
  
 span.mce_wpc_buttons:before { content: '\e800'; } /* '' */
